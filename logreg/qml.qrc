@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>signIn.qml</file>
+        <file>signUp.qml</file>
+        <file>ClickableText.qml</file>
+    </qresource>
+</RCC>
