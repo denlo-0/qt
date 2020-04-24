@@ -31,7 +31,6 @@ void automanager::authenticate(const QString &login, const QString &password)
             emit authenticateRequestCompleted(reply -> errorString(), token);
             qDebug()<<"token:"<<token;
             reply -> deleteLater();
-
         });
 }
 

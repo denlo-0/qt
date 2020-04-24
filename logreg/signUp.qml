@@ -29,7 +29,7 @@ Item{
 
     TextField{
         id:passwordSignUp
-        echoMode:"Password"
+        echoMode:TextInput.Password
         width: 250
         font.pixelSize: 16
         placeholderText: "Введите пароль"
@@ -40,7 +40,7 @@ Item{
 
     TextField{
         id:passwordCheckSignUp
-        echoMode:"Password"
+        echoMode:TextInput.Password
         width: 250
         font.pixelSize: 16
         placeholderText: "Повторите пароль"

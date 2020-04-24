@@ -13,7 +13,7 @@ Window {
     Loader{
         id:mainLoader
         anchors.fill: parent
-        anchors.bottom: mainRow.bottom
+        anchors.bottom: parent.bottom
         source: (loaderForm=="in")
             ? ("signIn.qml")
             : ("signUp.qml")
@@ -26,14 +26,12 @@ Window {
         anchors.bottom: parent.bottom
         anchors.margins: 10
 
-
         ClickableText{
             font.underline: loaderForm=="in"
             id: signInChoice
             text: qsTr("Вход")
             onClicked:{
                 loaderForm="in"
-                console.log("signIn")
             }
         }
 
@@ -53,10 +51,7 @@ Window {
             text: qsTr("Регистрация")
             onClicked:{
                 loaderForm="up"
-                console.log("signUp")
             }
         }
     }
 }
-
-

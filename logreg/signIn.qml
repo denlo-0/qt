@@ -29,7 +29,7 @@ Item{
 
     TextField{
         id:passwordSignIn
-        echoMode:"Password"
+        echoMode:TextInput.Password
         width: 250
         font.pixelSize: 16
         placeholderText: "Пароль"

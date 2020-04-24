@@ -14,9 +14,6 @@ public:
 
     void registering(const QString &login, const QString &password);
 
-private slots:
-
-
 private:
     QNetworkAccessManager _net;
 
